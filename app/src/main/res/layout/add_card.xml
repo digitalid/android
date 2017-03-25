@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- ID No. Label -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/id_no"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17sp"/>
+
+    <!-- Input IDNumber -->
+    <EditText android:id="@+id/inputIDNumber"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:inputType="number"
+        android:singleLine="true"/>
+
+    <!-- Name Label -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name_on_id"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17sp"/>
+
+    <!-- Input Name -->
+    <EditText android:id="@+id/inputIDName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"/>
+
+    <!-- ExpiryDate Label -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/expiry_date"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17sp"/>
+
+    <!-- Input ExpiryDate -->
+    <EditText android:id="@+id/inputExpiryDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"
+        android:inputType="datetime"/>
+
+    <!-- Nationality Label -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nationality"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17sp"/>
+
+    <!-- Input nationality -->
+    <EditText android:id="@+id/inputNationality"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:gravity="top"/>
+
+    <!-- Button Add Card -->
+    <Button android:id="@+id/btnAddCard"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bt_shape_3"
+        android:clickable="true"
+        android:elevation="4dp"
+        android:padding="20dp"
+        android:stateListAnimator="@drawable/state_list_animator_z"
+        android:textColor="#d3d3d3"
+        android:layout_marginTop="35dp"
+        android:text="@string/add_card"
+        android:onClick="onClickAddCard"
+        />
+
+
+</LinearLayout>

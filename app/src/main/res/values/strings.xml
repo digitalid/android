@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DigitalID</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="login">LOGIN</string>
+    <string name="Phonenumber">Phone Number</string>
+    <string name="Password">Password</string>
+    <string name="forgot_your_password">Forgot your password ?</string>
+    <string name="go">GO</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="next">NEXT</string>
+    <string name="register">REGISTER</string>
+    <string name="add_new_card">Add New Card</string>
+    <string name="add_card">Save Card</string>
+    <string name="nationality">Nationality</string>
+    <string name="expiry_date">Expiry Date</string>
+    <string name="name_on_id">Name on ID</string>
+    <string name="id_no">ID No.</string>
+</resources>
